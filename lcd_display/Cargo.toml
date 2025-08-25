@@ -3,6 +3,14 @@ name = "lcd_display"
 version = "0.1.0"
 edition = "2024"
 authors = ["Gabriel Del Monte"]
+license = "AGPL-3.0-or-later"
+description = "A Rust library for controlling character LCD displays (HD44780 compatible) via GPIO pins on Linux systems"
+homepage = "https://github.com/gabrieldelmonte/lcd_display_rust"
+repository = "https://github.com/gabrieldelmonte/lcd_display_rust"
+documentation = "https://docs.rs/lcd_display"
+readme = "README.md"
+keywords = ["lcd", "gpio", "embedded", "hd44780", "linux"]
+categories = ["embedded", "hardware-support", "no-std"]
 
 [dependencies]
 gpio-cdev = "0.6.0"
