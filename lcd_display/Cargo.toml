@@ -1,0 +1,8 @@
+[package]
+name = "lcd_display"
+version = "0.1.0"
+edition = "2024"
+authors = ["Gabriel Del Monte"]
+
+[dependencies]
+gpio-cdev = "0.6.0"
